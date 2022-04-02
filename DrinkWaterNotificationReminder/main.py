@@ -6,7 +6,8 @@ if __name__=='__main__':
         notification.notify(
             title="** Please Drink Water Now !!",
             message="Drinking Water Helps to Maintain the Balance of Body Fluids.",
-            app_icon="R:\PythonProject\DrinkWaterNotificationReminder\Glass.ico",
-            timeout=10
+            #app_icon="R:\PythonProject\DrinkWaterNotificationReminder\Glass.ico",
+            timeout=5
         )
-        time.sleep(60*60)
+        time.sleep(5)
+        #time.sleep(60*60)
